@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from 'react-icons/bs'
-
+import {AiFillLinkedin, AiFillGithub} from "react-icons/ai";
 export default function Home() {
 
   return (
@@ -14,19 +14,30 @@ export default function Home() {
       <main className="bg-white px-10">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl"><a href="https://github.com/teppley?tab=repositories" target="_blank">Created By: teppley</a></h1>
+            <h1 className="text-xl font-burtons"><a href="https://github.com/teppley?tab=repositories" target="_blank" rel="noreferrer">Created By: teppley</a></h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill className="cursor-pointer text-xl hover:animate-spin" />
+                <BsFillMoonStarsFill className="cursor-pointer text-xl hover:animate-spin hover:fill-indigo-600" />
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-pink-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:animate-pulse" href="#">
+                  className="bg-gradient-to-r from-pink-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-12 hover:animate-pulse" href="#">
                   Resume
                 </a>
               </li>
             </ul>
           </nav>
+          <div className="text-center">
+            <h2>Tyler Eppley</h2>
+            <h3>Full Stack Web Developer</h3>
+            <p>
+              An aspiring programmer with an interest in creative design.
+            </p>
+          </div>
+          <div>
+          <a href="https://www.linkedin.com/in/tyler-eppley-b2483426b/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+          <a href="https://github.com/teppley?tab=repositories" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+          </div>
         </section>
       </main>
     </div>
