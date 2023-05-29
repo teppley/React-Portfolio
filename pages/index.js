@@ -25,15 +25,15 @@ export default function Home() {
       </Head>
       <main className="bg-white px-10 dark:bg-zinc-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white sticky top-0">
-            <h1 className="text-xl font-burtons hover:animate-bounce"><a href="https://github.com/teppley?tab=repositories" target="_blank" rel="noreferrer">Created By: teppley</a></h1>
+          <nav className="py-10 mb-12 flex justify-between border rounded-lg border-whie bg-zinc-500 sticky top-0 dark:text-white dark:bg-zinc-800 dark:border-zinc-800">
+            <h1 className="text-xl font-burtons pl-5 hover:animate-bounce text-white"><a href="https://github.com/teppley?tab=repositories" target="_blank" rel="noreferrer">Created By: teppley</a></h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl hover:animate-spin hover:fill-indigo-600" />
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl text-white hover:animate-spin hover:fill-indigo-600" />
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-pink-500 text- to-cyan-600 text-white px-4 py-2 border-none rounded-md ml-12 hover:animate-pulse" href="#">
+                  className="bg-gradient-to-r from-pink-500 text- to-cyan-600 text-white px-4 py-2 mr-5 border-none rounded-md ml-12 hover:animate-pulse" href="#">
                   Resume
                 </a>
               </li>
