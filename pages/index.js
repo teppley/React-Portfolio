@@ -7,6 +7,9 @@ import avatar from "../public/avataaars.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
+import arrdvarchive from "../public/arrdvarchive title.jpg"
+import yeti from "../public/yeti-games-screenshot.jpg"
+import blog from "../public/tech-blog.png"
 import React from "react";
 import { useState } from "react";
 
@@ -22,7 +25,7 @@ export default function Home() {
       </Head>
       <main className="bg-white px-10 dark:bg-zinc-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-10 mb-12 flex justify-between dark:text-white sticky top-0">
             <h1 className="text-xl font-burtons hover:animate-bounce"><a href="https://github.com/teppley?tab=repositories" target="_blank" rel="noreferrer">Created By: teppley</a></h1>
             <ul className="flex items-center">
               <li>
@@ -60,9 +63,9 @@ export default function Home() {
             <div className="text-center shadow-xl shadow-purple-400 p-10 rounded-xl my-10 dark:bg-zinc-800 flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium underline my-10 dark:text-white font-burtons">Design:</h3>
-              <p className="py-2 dark:text-white mb-10">Creating front-end designs using different styling languages.</p>
-              <p className="dark:text-white py-1">CSS styling</p>
-              <p className="dark:text-white py-1">Tailwind styling</p>
+              <p className="py-2 dark:text-white mb-10">Creating front-end designs using styling languages.</p>
+              <p className="dark:text-white py-1">CSS</p>
+              <p className="dark:text-white py-1">Tailwind</p>
             </div>
             <div className="text-center shadow-xl shadow-purple-400 p-10 rounded-xl my-10 dark:bg-zinc-800 flex-1">
               <Image src={code} width={100} height={100} />
@@ -80,6 +83,9 @@ export default function Home() {
               <Image src={consulting} width={100} height={100} />
               <h5 className="text-lg font-medium my-10 underline dark:text-white font-burtons">Projects:</h5>
               <p className="py-2 dark:text-white mb-10">Here are some applications I have made.</p>
+              <p className="pb-10 hover:animate-pulse"><a href = "https://ancient-fortress-32796.herokuapp.com/" target="_blank" rel="noreferrer"><Image src={arrdvarchive} width={200} height={50}/></a></p>
+              <p className="hover:animate-pulse"><a href = "https://chemicalmodel.github.io/Yeti-Games/" target="_blank" rel="noreferrer"><Image src={yeti} width={200} height={50}></Image></a></p>
+              <p className="mt-10 hover:animate-pulse"><a href = "https://vast-hollows-79062.herokuapp.com/" target="_blank" rel="noreferrer"><Image src={blog} width={200} height={50}/></a></p>
             </div>
           </div>
         </section>
