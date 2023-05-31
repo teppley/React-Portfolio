@@ -10,6 +10,15 @@ import scroll from "../public/scroll.png";
 import arrdvarchive from "../public/arrdvarchive title.jpg"
 import yeti from "../public/yeti-games-screenshot.jpg"
 import blog from "../public/tech-blog.png"
+import javascript from "../public/javascript-logo.png"
+import mysql from "../public/logo-mysql.png"
+import nodejs from "../public/nodejs-logo.png"
+import csslogo from "../public/css-logo.png"
+import tailwindlogo from "../public/Tailwind_CSS_Logo.svg.png"
+import HTMLlogo from "../public/HTML5-logo.png"
+import mongoDBlogo from "../public/MongoDB-logo.png"
+import Reactlogo from "../public/React-icon.png"
+import nextJS from "../public/next-js-logo.png"
 import React from "react";
 import { useState } from "react";
 
@@ -36,11 +45,14 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl  hover:animate-spin hover:fill-indigo-600" />
               </li>
               <li>
-                <a
-                  className="bg-gradient-to-r from-pink-500 text- to-cyan-600 text-white px-4 py-2 mr-5 border-none rounded-md ml-12 hover:animate-pulse" href="#">
-                  Resume
-                </a>
-              </li>
+  <a
+    className="bg-gradient-to-r from-pink-500 text- to-cyan-600 text-white px-4 py-2 mr-5 border-none rounded-md ml-12 hover:animate-pulse"
+    href="/tylersResume.pdf"
+    download="tylersResume.pdf"
+  >
+    Resume
+  </a>
+</li>
             </ul>
           </nav>
 
@@ -88,20 +100,20 @@ export default function Home() {
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium underline my-10 dark:text-white font-burtons">Design:</h3>
               <p className="py-2 dark:text-white mb-10">Creating front-end designs using styling languages.</p>
-              <p className="dark:text-white py-1">CSS</p>
-              <p className="dark:text-white py-1">Tailwind</p>
+              <p className="dark:text-white py-1"><Image src={csslogo} width={20} height={20}/>CSS</p>
+              <p className="dark:text-white py-1"><Image src={tailwindlogo} width={25} height={20}/>Tailwind</p>
             </div>
             <div className="text-center shadow-xl shadow-purple-400 p-10 rounded-xl my-10 dark:bg-zinc-800 flex-1">
               <Image src={code} width={100} height={100} />
               <h4 className="text-lg font-medium my-10 underline dark:text-white font-burtons">Coding:</h4>
               <p className="py-2 dark:text-white mb-10">I have experience in many programming languages and technologies.</p>
-              <p className="dark:text-white py-1">HTML</p>
-              <p className="dark:text-white py-1">JavaScript</p>
-              <p className="dark:text-white py-1">MySQL</p>
-              <p className="dark:text-white py-1">Node.js</p>
-              <p className="dark:text-white py-1">MongoDB</p>
-              <p className="dark:text-white py-1">React</p>
-              <p className="dark:text-white py-1">Next.js</p>
+              <p className="dark:text-white py-1"><Image src={HTMLlogo} width={30} height={20}/>HTML</p>
+              <p className="dark:text-white py-1"><Image src={javascript} width={30} height={20}/> JavaScript</p>
+              <p className="dark:text-white py-1"><Image src={mysql} width={30} height={20}/>MySQL</p>
+              <p className="dark:text-white py-1"><Image src={nodejs} width={30} height={20}/>Node.js</p>
+              <p className="dark:text-white py-1"><Image src={mongoDBlogo} width={30} height={20}/>MongoDB</p>
+              <p className="dark:text-white py-1"><Image src={Reactlogo} width={30} height={20}/>React</p>
+              <p className="dark:text-white py-1"><Image src={nextJS} width={25} height={20}/>Next.js</p>
             </div>
             <div className="text-center shadow-xl shadow-purple-400 p-10 rounded-xl my-10 dark:bg-zinc-800 flex-1">
               <Image src={scroll} width={100} height={100} />
