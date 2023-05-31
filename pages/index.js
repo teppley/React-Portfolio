@@ -47,8 +47,7 @@ export default function Home() {
               <li>
   <a
     className="bg-gradient-to-r from-pink-500 text- to-cyan-600 text-white px-4 py-2 mr-5 border-none rounded-md ml-12 hover:animate-pulse"
-    href="/tylersResume.pdf"
-    download="tylersResume.pdf"
+    href="https://drive.google.com/file/d/1VpU5wxVsUFXNys6bUnprNWLTOvjGLyGD/view?usp=sharing" target="_blank" rel="noreferrer"
   >
     Resume
   </a>
