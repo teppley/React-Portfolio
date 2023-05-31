@@ -107,7 +107,7 @@ export default function Home() {
               <h4 className="text-lg font-medium my-10 underline dark:text-white font-burtons">Coding:</h4>
               <p className="py-2 dark:text-white mb-10">I have experience in many programming languages and technologies.</p>
               <p className="dark:text-white py-1"><Image src={HTMLlogo} width={30} height={20}/>HTML</p>
-              <p className="dark:text-white py-1"><Image src={javascript} width={30} height={20}/> JavaScript</p>
+              <p className="dark:text-white py-1"><Image src={javascript} width={50} height={20}/> JavaScript</p>
               <p className="dark:text-white py-1"><Image src={mysql} width={30} height={20}/>MySQL</p>
               <p className="dark:text-white py-1"><Image src={nodejs} width={30} height={20}/>Node.js</p>
               <p className="dark:text-white py-1"><Image src={mongoDBlogo} width={30} height={20}/>MongoDB</p>
