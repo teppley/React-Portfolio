@@ -18,6 +18,7 @@ import tailwindlogo from "../public/Tailwind_CSS_Logo.svg.png"
 import HTMLlogo from "../public/HTML5-logo.png"
 import mongoDBlogo from "../public/MongoDB-logo.png"
 import Reactlogo from "../public/React-icon.png"
+import PersuadeMe from "../public/Screenshot 2023-06-12 164124.png"
 import nextJS from "../public/next-js-logo.png"
 import React from "react";
 import { useState } from "react";
@@ -131,6 +132,11 @@ export default function Home() {
               <p className="mt-10 hover:animate-pulse">
                 <a href="https://vast-hollows-79062.herokuapp.com/" target="_blank" rel="noreferrer">
                   <Image src={blog} width={200} height={50} />
+                </a>
+              </p>
+              <p className="pt-10 hover:animate-pulse">
+                <a href="https://github.com/teppley/Persuade-Me" target="_blank" rel="noreferrer">
+                  <Image src={PersuadeMe} width={200} height={50} />
                 </a>
               </p>
             </div>
