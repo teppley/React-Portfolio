@@ -89,7 +89,7 @@ export default function Home() {
           {/* About Me */}
           <div className="lg:flex lg:flex-col lg:items-center">
             <h3 className="text-4xl py-1 dark:text-white text-center font-burtons">About Me:</h3>
-            <p className="text-lg py-2 dark:text-white text-center flex flex-col font-poppins">
+            <p className="text-lg py-2 dark:text-white text-center flex flex-col font-poppins max-w-xl">
               I began my coding journey as a full-time student enrolled at the University of Central Florida, UCF Coding Bootcamp.
               While enrolled, I have learned multiple coding languages ranging from front-end development to back-end server management.
               My experience has resulted in an interest for simple yet elegant designs and data management.
