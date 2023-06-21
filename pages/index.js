@@ -38,7 +38,7 @@ export default function Home() {
         {/* Header */}
         <section className="min-h-screen pt-6 flex flex-col">
           <div className="flex justify-center sticky top-0 z-10">
-          <nav className="py-10 mb-12  ring-2 ring-zinc-600 ring-inset shadow-lg border-none shadow-purple-400 flex justify-between border rounded-lg  bg-zinc-400  dark:text-white dark:bg-gradient-to-br from-zinc-800 to-slate-500 dark:border-zinc-800 dark:shadow-white">
+          <nav className="py-10 mb-12 ring-2 ring-zinc-600 ring-inset shadow-lg border-none shadow-purple-400 flex justify-between border rounded-lg  bg-zinc-400  dark:text-white dark:bg-gradient-to-br from-zinc-800 to-slate-500 dark:border-zinc-800 dark:shadow-white">
             <h1 className="text-xl font-burtons pl-5 hover:animate-bounce ">
               <a href="https://github.com/teppley?tab=repositories" target="_blank" rel="noreferrer">Created By: teppley</a>
             </h1>
@@ -100,43 +100,43 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center ring-2 ring-zinc-600 ring-inset bg-zinc-400 shadow-xl shadow-purple-400 p-10 rounded-xl my-10 dark:bg-gradient-to-br from-zinc-800 to-slate-500 flex-1 dark:shadow-white">
               <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium underline my-10 dark:text-white font-burtons">Design:</h3>
-              <p className="py-2 dark:text-white mb-10">Creating front-end designs using styling languages.</p>
-              <p className="dark:text-white py-1"><Image src={csslogo} width={20} height={20}/>CSS</p>
-              <p className="dark:text-white py-1"><Image src={tailwindlogo} width={25} height={20}/>Tailwind</p>
+              <h3 className="text-3xl font-medium underline my-10 dark:text-white font-burtons">Design:</h3>
+              <p className="py-2 dark:text-white mb-10 text-lg font-poppins">Creating front-end designs using styling languages.</p>
+              <p className="dark:text-white py-1 text-lg mb-2"><Image src={csslogo} width={20} height={20}/>CSS</p>
+              <p className="dark:text-white py-1 text-lg"><Image src={tailwindlogo} width={25} height={20}/>Tailwind</p>
             </div>
             <div className="text-center ring-2 ring-zinc-600 ring-inset bg-zinc-400 shadow-xl shadow-purple-400 p-10 rounded-xl my-10 dark:bg-gradient-to-br from-zinc-800 to-slate-500 flex-1 dark:shadow-white">
               <Image src={code} width={100} height={100} />
-              <h4 className="text-lg font-medium my-10 underline dark:text-white font-burtons">Coding:</h4>
-              <p className="py-2 dark:text-white mb-10">I have experience in many programming languages and technologies.</p>
-              <p className="dark:text-white py-1"><Image src={HTMLlogo} width={30} height={20}/>HTML</p>
-              <p className="dark:text-white py-1"><Image src={javascript} width={50} height={20}/> JavaScript</p>
-              <p className="dark:text-white py-1"><Image src={mysql} width={30} height={20}/>MySQL</p>
-              <p className="dark:text-white py-1"><Image src={nodejs} width={30} height={20}/>Node.js</p>
-              <p className="dark:text-white py-1"><Image src={mongoDBlogo} width={30} height={20}/>MongoDB</p>
-              <p className="dark:text-white py-1"><Image src={Reactlogo} width={30} height={20}/>React</p>
-              <p className="dark:text-white py-1"><Image src={nextJS} width={25} height={20}/>Next.js</p>
+              <h4 className="text-3xl font-medium my-10 underline dark:text-white font-burtons">Coding:</h4>
+              <p className="py-2 dark:text-white mb-10 text-lg font-poppins">I have experience in many programming languages and technologies.</p>
+              <p className="dark:text-white py-1 text-lg mb-2"><Image src={HTMLlogo} width={30} height={20}/>HTML</p>
+              <p className="dark:text-white py-1 text-lg mb-2"><Image src={javascript} width={50} height={20}/> JavaScript</p>
+              <p className="dark:text-white py-1 text-lg mb-2"><Image src={mysql} width={30} height={20}/>MySQL</p>
+              <p className="dark:text-white py-1 text-lg mb-2"><Image src={nodejs} width={30} height={20}/>Node.js</p>
+              <p className="dark:text-white py-1 text-lg mb-2"><Image src={mongoDBlogo} width={30} height={20}/>MongoDB</p>
+              <p className="dark:text-white py-1 text-lg mb-2"><Image src={Reactlogo} width={30} height={20}/>React</p>
+              <p className="dark:text-white py-1 text-lg"><Image src={nextJS} width={25} height={20}/>Next.js</p>
             </div>
             <div className="text-center ring-2 ring-zinc-600 ring-inset bg-zinc-400 shadow-xl shadow-purple-400 p-10 rounded-xl my-10 dark:bg-gradient-to-br from-zinc-800 to-slate-500 flex-1 dark:shadow-white">
               <Image src={scroll} width={100} height={100} />
-              <h5 className="text-lg font-medium my-10 underline dark:text-white font-burtons">Projects:</h5>
-              <p className="py-2 dark:text-white mb-10">Here are some applications I have created.</p>
-              <p className="pb-10 hover:animate-pulse">
+              <h5 className="text-3xl font-medium my-10 underline dark:text-white font-burtons">Projects:</h5>
+              <p className="py-2 dark:text-white mb-10 text-lg font-poppins">Here are some applications I have created.</p>
+              <p className="pb-10 hover:animate-pulse hover:scale-125">
                 <a href="https://ancient-fortress-32796.herokuapp.com/" target="_blank" rel="noreferrer">
                   <Image src={arrdvarchive} width={200} height={50} />
                 </a>
               </p>
-              <p className="hover:animate-pulse">
+              <p className="hover:animate-pulse hover:scale-125">
                 <a href="https://chemicalmodel.github.io/Yeti-Games/" target="_blank" rel="noreferrer">
                   <Image src={yeti} width={200} height={50} />
                 </a>
               </p>
-              <p className="mt-10 hover:animate-pulse">
+              <p className="mt-10 hover:animate-pulse hover:scale-125">
                 <a href="https://vast-hollows-79062.herokuapp.com/" target="_blank" rel="noreferrer">
                   <Image src={blog} width={200} height={50} />
                 </a>
               </p>
-              <p className="pt-10 hover:animate-pulse">
+              <p className="pt-10 hover:animate-pulse hover:scale-125">
                 <a href="https://github.com/teppley/Persuade-Me" target="_blank" rel="noreferrer">
                   <Image src={PersuadeMe} width={200} height={50} />
                 </a>
@@ -148,7 +148,7 @@ export default function Home() {
           <footer>
             <p className="text-4xl py-1 dark:text-white text-center font-burtons pt-10 pl">📧Contact:</p>
             <div className="dark:text-white text-center font-burtons text-2xl">Please feel free to contact me by email</div>
-            <div className="dark:text-white text-center text-2xl underline pb-5">
+            <div className="dark:text-white text-center text-2xl underline pb-5 hover:scale-105 hover:animate-pulse">
               <a href="mailto:teppley300@gmail.com">teppley300@gmail.com</a>
             </div>
           </footer>
