@@ -122,7 +122,7 @@ export default function Home() {
               <h5 className="text-3xl font-medium my-10 underline dark:text-white font-burtons transition duration-400">Projects:</h5>
               <p className="py-2 dark:text-white mb-10 text-lg font-poppins">Here are some applications I have created.</p>
               <p className="pb-10 hover:animate-pulse hover:scale-125">
-                <a href="https://ancient-fortress-32796.herokuapp.com/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/teppley/AardvArchive" target="_blank" rel="noreferrer">
                   <Image src={arrdvarchive} width={200} height={50} />
                 </a>
               </p>
@@ -132,7 +132,7 @@ export default function Home() {
                 </a>
               </p>
               <p className="mt-10 hover:animate-pulse hover:scale-125">
-                <a href="https://vast-hollows-79062.herokuapp.com/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/teppley/Tech-Blog" target="_blank" rel="noreferrer">
                   <Image src={blog} width={200} height={50} />
                 </a>
               </p>
